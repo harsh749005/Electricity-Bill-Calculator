@@ -1,0 +1,47 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+.main-container{
+    margin: 100px auto;
+    width: 450px;
+    height: 45em;
+    border-radius: 10px;
+    display: grid;
+    row-gap: 2em;
+    place-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 9px 14px 0px rgba(0,0,0,0.23);
+}
+h3{
+    margin-top: 1em;
+    width: fit-content;
+    
+}
+h4{
+    font-size: 16px;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+}
+.details{
+    display: grid;
+    width: auto;
+    row-gap: 32px;
+}
+.con_unit,.conn_load,.answer{
+    height: 35px;
+    padding-left: 1em;
+    font-size: 0.8em;
+    border-radius: 5px;
+    border: 1.5px solid;
+}
+.btn{
+    height: 40px;
+    border-radius: 5px;
+    border: 1.5px solid;
+    background-color:#7D9AFF;
+    font-size: 18px;
+}
