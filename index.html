@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chit-Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <h3>Calculate Your Electricity Bill Amount</h3>
+        <div class="details">
+            <input type="text" class="con_unit" id="caon_unit" placeholder="Enter consumed unit" required>
+            <input type="text" class="conn_load" id="conn_load" placeholder="connected load" required>
+            <input type="text" class="answer" id="e-charge" placeholder="Energy charges" required>
+            <input type="text" class="answer" id="f-charge" placeholder="Fixed charges" required>
+            <input type="text" class="answer" id="total_bill" placeholder="Total Bill" required style="color:#0038FF;border-color: black;">
+            <input type="button" class="btn" value="Calculate" onclick="submit()">
+            <h4 class="login">Have a Good Day</h4>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
